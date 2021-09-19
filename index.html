@@ -1,23 +1,11 @@
-<html>
-  <head>
-    <title>WWII Battle Sites Descriptions</title>
-  </head>
-  <body>
-    <input type="text" placeholder="Type " id="inputId">
-    <button type="button" onclick="findDescription();">Get Value</button>
-    <script>
-      copytext = ["ΠΕΟ90", "yes"];
-      description = [
-      	"Battle of Crete (20 May – 1 June 1941). 22,000 German troops parachuted onto the island in the first majority airborne invasion in history. This is the Maleme airfield, which the Allies left undefended because of a communication problem: a turning point in the battle.",
-        "Battle of Réunion (28 November 1942). A small force of Free French landed almost unopposed at the capital of Saint-Denis to replace the administration, which had previously been loyal to Vichy France."      
-      ];
-      function findDescription() {
-        let inputVal = document.getElementById("inputId").value;
-        indexnumber = copytext.indexOf(inputVal);
-        if(indexnumber == -1){displaytext = "No description available for this input."}
-        else{displaytext = description[indexnumber]}
-        alert(displaytext);
-      }
-    </script>
-  </body>
-</html>
+---
+layout: page
+---
+
+<h3>Books</h3>
+
+<h3>Blog</h3>
+
+{% for post in site.posts %}
+<span class="date-home">({{ post.date | date: "%Y/%m" }})</span> [{{ post.title }}]({{ post.url }}) <br>
+{% endfor %}
