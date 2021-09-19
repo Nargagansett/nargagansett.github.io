@@ -1,1 +1,22 @@
-theme: jekyll-theme-minimal
+# Permalinks
+permalink: /:title/
+relative_permalinks: false
+
+show_excerpts: false  # set to true to show excerpts on the homepage
+
+# Setup
+title: AB
+
+author:
+  name: An Be
+
+# Custom vars
+theme: minima
+
+minima:
+  # generate social links in footer
+
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
