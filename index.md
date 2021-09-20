@@ -6,7 +6,7 @@ layout: page
 
 <h3>Books</h3>
 
-<a href="https://www.google.com"><img src="/assets/books/testsquare.jpg" height="20%" width="20%" style="margin: 0px 10px 20px 0px; float: left;">
+<a href="https://www.google.com"><img src="/assets/books/testsquare.jpg" height="30%" width="30%" style="margin: 0px 10px 20px 0px; float: left;">
 <b>This book</b></a> is a book about x.
 <div style="clear: both;"></div>
 
