@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img src="/assets/testtractor.jpg" height="50%" width="50%" style="margin: 0px 0px 20px 0px; float: center;">
+<img src="/assets/testtractor.jpg" height="50%" width="100%" style="margin: 0px 0px 20px 0px; float: center;">
 
 <h3>Books</h3>
 
