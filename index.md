@@ -4,7 +4,7 @@ layout: page
 
 <h3>Books</h3>
 
-<a href="https://www.google.com"><img src="/assets/projects/testsquare.jpg" height="50%" width="50%" style="margin: 0px 10px 20px 0px; float: left;">
+<a href="https://www.google.com"><img src="/assets/books/testsquare.jpg" height="50%" width="50%" style="margin: 0px 10px 20px 0px; float: left;">
 <b>This book</b></a> is a book about x.
 <div style="clear: both;"></div>
 
