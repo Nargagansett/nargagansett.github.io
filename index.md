@@ -2,6 +2,8 @@
 layout: page
 ---
 
+<img src="/assets/testtractor.jpg" height="20%" width="20%" style="margin: 0px 10px 20px 0px; float: center;">
+
 <h3>Books</h3>
 
 <a href="https://www.google.com"><img src="/assets/books/testsquare.jpg" height="20%" width="20%" style="margin: 0px 10px 20px 0px; float: left;">
