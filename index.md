@@ -6,7 +6,7 @@ layout: page
 
 <h3>Books</h3>
 
-<iframe src="https://www.google.com/maps/embed?pb=!4v1637532890392!6m8!1m7!1sCAoSLEFGMVFpcE13cjJpLWlmdENVbmNKSEc5RWZNMHJFNi1oTVlWR2ZWUk5SZzVO!2m2!1d51.5226617!2d-0.1556945!3f91.25740436702097!4f6.05873327267922!5f0.7820865974627469" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!4v1637532890392!6m8!1m7!1sCAoSLEFGMVFpcE13cjJpLWlmdENVbmNKSEc5RWZNMHJFNi1oTVlWR2ZWUk5SZzVO!2m2!1d51.5226617!2d-0.1556945!3f91.25740436702097!4f6.05873327267922!5f0.7820865974627469" width="100%" height="60%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 <a href="https://www.google.com"><img src="/assets/books/testsquare.jpg" height="30%" width="30%" style="margin: 0px 10px 20px 0px; float: left;">
 <b>This book</b></a> is a book about x.
