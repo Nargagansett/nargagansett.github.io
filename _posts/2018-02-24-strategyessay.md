@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The strategic's tradeoff between *variance* and mean
+title: The strategic's tradeoff between *variance* and **mean**
 permalink: /strategy
 ---
 
