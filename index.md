@@ -6,7 +6,18 @@ layout: page
 
 <h3>Books</h3>
 
-width 100
+new try
+
+
+
+ 
+
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/embed?pb=!4v1637532890392!6m8!1m7!1sCAoSLEFGMVFpcE13cjJpLWlmdENVbmNKSEc5RWZNMHJFNi1oTVlWR2ZWUk5SZzVO!2m2!1d51.5226617!2d-0.1556945!3f91.25740436702097!4f6.05873327267922!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+ 
+
+old one below
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1637532890392!6m8!1m7!1sCAoSLEFGMVFpcE13cjJpLWlmdENVbmNKSEc5RWZNMHJFNi1oTVlWR2ZWUk5SZzVO!2m2!1d51.5226617!2d-0.1556945!3f91.25740436702097!4f6.05873327267922!5f0.7820865974627469" width="100%" tyle="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
