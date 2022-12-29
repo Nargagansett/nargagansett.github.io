@@ -6,8 +6,14 @@ layout: page
 
 <h3>Books</h3>
 
+
+<a href="https://google.com"><img src="https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586723509001-E5NQB7VLS1R9NS0EOSOM/Harry+Potter+and+the+Philosopher%27s+Stone+Original+Children%27s+Edition+Cover.jpg" height="25%" width="25%" style="margin: 0px 10px 20px 0px; float: left;">
+<b>This book</b></a> is a good book.
+<div style="clear: both;"></div>
+
 try again again
 
+<h3>Other</h3>
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/embed?pb=!4v1638641578584!6m8!1m7!1srY9_smxJX6MJfXw_aWmFZQ!2m2!1d51.41198382770721!2d0.01541783592259776!3f205.35260311865295!4f4.794333189591157!5f1.8437470984674964" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" loading="lazy"></iframe>
 </div>
