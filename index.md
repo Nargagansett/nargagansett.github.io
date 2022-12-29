@@ -4,15 +4,9 @@ layout: page
 
 <img src="/assets/testtractor.jpg" height="50%" width="100%" style="margin: 0px 0px 20px 0px; float: center;">
 
-<h3>Books</h3>
+<h3>Test</h3>
 
 
-<a href="https://google.com"><img src="https://liontailedmacaque.github.io/assets/homepage/NebCover2.png" width="25%" height="25%" style="margin: 0px 10px 20px 0px; float: left;">
-<b>This book</b></a> is a book.
-<div style="clear: both;"></div>
-<a href="https://google.com"><img src="https://liontailedmacaque.github.io/assets/homepage/ChessCover2.png" width="25%" height="25%" style="margin: 0px 10px 20px 0px; float: left;">
-<b>This book</b></a> is a book.
-<div style="clear: both;"></div>
 
 try again again
 
