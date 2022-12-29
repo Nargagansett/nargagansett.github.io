@@ -1,6 +1,7 @@
 ---
+
 permalink: /introduction
-title: Chapter 0: Introduction
+title: Chapter 0 -- Introduction
 
 ---
 
