@@ -1,6 +1,6 @@
 ---
-layout: post
-permalink: /cars/introduction2
+layout: page
+permalink: /cars/introduction
 title: Chapter 0 Introduction
 
 ---
