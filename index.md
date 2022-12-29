@@ -7,8 +7,11 @@ layout: page
 <h3>Books</h3>
 
 
-<a href="https://google.com"><img src="https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586723509001-E5NQB7VLS1R9NS0EOSOM/Harry+Potter+and+the+Philosopher%27s+Stone+Original+Children%27s+Edition+Cover.jpg" width="25%" style="margin: 0px 10px 20px 0px; float: left;">
-<b>This book</b></a> is a good book.
+<a href="https://google.com"><img src="https://liontailedmacaque.github.io/assets/homepage/NebCover2.png" width="25%" height="25%" style="margin: 0px 10px 20px 0px; float: left;">
+<b>This book</b></a> is a book.
+<div style="clear: both;"></div>
+<a href="https://google.com"><img src="https://liontailedmacaque.github.io/assets/homepage/ChessCover2.png" width="25%" height="25%" style="margin: 0px 10px 20px 0px; float: left;">
+<b>This book</b></a> is a book.
 <div style="clear: both;"></div>
 
 try again again
