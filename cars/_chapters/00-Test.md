@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /introduction
 title: Chapter 0 -- Introduction
 
