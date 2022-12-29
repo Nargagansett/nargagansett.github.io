@@ -7,7 +7,7 @@ layout: page
 <h3>Books</h3>
 
 
-<a href="https://google.com"><img src="https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586723509001-E5NQB7VLS1R9NS0EOSOM/Harry+Potter+and+the+Philosopher%27s+Stone+Original+Children%27s+Edition+Cover.jpg" height="25%" width="25%" style="margin: 0px 10px 20px 0px; float: left;">
+<a href="https://google.com"><img src="https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586723509001-E5NQB7VLS1R9NS0EOSOM/Harry+Potter+and+the+Philosopher%27s+Stone+Original+Children%27s+Edition+Cover.jpg" width="25%" style="margin: 0px 10px 20px 0px; float: left;">
 <b>This book</b></a> is a good book.
 <div style="clear: both;"></div>
 
