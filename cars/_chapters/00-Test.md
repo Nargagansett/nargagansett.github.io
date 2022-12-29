@@ -1,7 +1,7 @@
 ---
-
-title: Chapter 0: Introduction
 permalink: /introduction
+title: Chapter 0: Introduction
+
 ---
 
 test article
