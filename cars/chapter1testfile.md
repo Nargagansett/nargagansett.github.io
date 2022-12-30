@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /cars/chapter1
-title: Chapter Test Title
+title: Chapter 1 Test Title
 
 ---
 
