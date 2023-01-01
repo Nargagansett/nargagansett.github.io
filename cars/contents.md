@@ -11,6 +11,7 @@ permalink: /chessmemorypalace
 
 
 > *I know from my own experience what an excruciating labour it is to memorise "theory" before a game. You have it all written down in notebooks, you have gone through it ten times before starting play, and still you can't remember it.*
+> 
 > IM and Chess Trainer Mark Dvoretsky
 
 Algebraic notation
