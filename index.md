@@ -4,6 +4,10 @@ layout: page
 
 <img src="/assets/testtractor.jpg" height="50%" width="100%" style="margin: 0px 0px 20px 0px; float: center;">
 
+
+  <!-- experiment with subscribe box -->
+  {% include subscribe.html %} 
+
 <h3>Test</h3>
 
 
