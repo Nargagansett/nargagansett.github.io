@@ -39,8 +39,6 @@ try again again
 
 End of blog posts
 
-<h3>Subscribe</h3>
-{% include subscribe.html %}
 
 <h3>Contact</h3>
 Not currently available
