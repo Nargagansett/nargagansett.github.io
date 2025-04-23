@@ -37,6 +37,8 @@ try again again
 <span class="date-home">({{ post.date | date: "%Y/%m" }})</span> [{{ post.title }}]({{ post.url }}) <br>
 {% endfor %}
 
+End of blog posts
+
 <h3>Subscribe</h3>
 {% include subscribe.html %}
 
