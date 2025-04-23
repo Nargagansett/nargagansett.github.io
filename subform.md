@@ -6,4 +6,4 @@ permalink: /subform
 
 Blog post
 
-{% include follow-it-form.html %}
+{% include subscribe.html %}
