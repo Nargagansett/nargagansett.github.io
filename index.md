@@ -36,3 +36,9 @@ try again again
 {% for post in site.posts %}
 <span class="date-home">({{ post.date | date: "%Y/%m" }})</span> [{{ post.title }}]({{ post.url }}) <br>
 {% endfor %}
+
+<h3>Subscribe</h3>
+{% include follow-it-form.html %}
+
+<h3>Contact</h3>
+Not currently available
