@@ -1,13 +1,17 @@
 <style>
+/* Reset container margin/padding to ensure left alignment */
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] {
   width: 100%;
-  max-width: 500px; /* constrain width */
+  max-width: 500px;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: inherit !important;
 }
 
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
   display: block !important;
-  margin-top: 30px !important;
-  padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+  margin: 0 !important;
+  padding: 0 !important;
   border-radius: 6px !important;
   background-color: inherit !important;
   box-shadow: none !important;
@@ -20,13 +24,15 @@
   font-family: inherit !important;
   font-size: inherit !important;
 }
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .preview-heading {
+  margin-bottom: 10px !important;
+}
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .preview-heading h5 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin: 0 !important;
   color: inherit !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .preview-input-field {
-  margin-top: 20px !important;
+  margin-bottom: 10px !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .preview-input-field input {
   width: 100% !important;
@@ -49,9 +55,6 @@
   opacity: 1 !important;
   font-family: inherit !important;
   font-size: inherit !important;
-}
-.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .preview-submit-button {
-  margin-top: 10px !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .preview-submit-button button {
   width: 100% !important;
@@ -82,13 +85,13 @@
   <form action="https://api.follow.it/subscription-form/bFJpWE9sWlJVNXNIODNOd05QNmpuNnYyUXhsZURUcmh2Q0szRE5saktRQ3lCZ09FYTAyeTNDeE1EQzk1NHloUFJIczl0OWF3THpKSDVVSnBIK1JZQzBjYlRqamhqSUluVEEwRGxKaS95NFpIaUtTSG1WT2ZUbEhDL3NJRzJsa0J8L3UzV1hISzYyYlptL3h2RTNZRk8yelM3RW0zbHoyQ2dIMFhnVXZNTE5ycz0=/8" method="post">
     <div class="form-preview">
       <div class="preview-heading">
-        <h5>Get new posts by email:</h5>
+        <h5>Get new blog post by email</h5>
       </div>
       <div class="preview-input-field">
-        <input type="email" name="email" required placeholder="Enter your email" spellcheck="false">
+        <input type="email" name="email" required placeholder="Enter your email address" spellcheck="false">
       </div>
       <div class="preview-submit-button">
-        <button type="submit">Subscribe</button>
+        <button type="submit">Subscribe for free</button>
       </div>
     </div>
   </form>
