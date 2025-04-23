@@ -10,12 +10,14 @@
   padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
   max-width: none !important;
   border-radius: 6px !important;
-  box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+  background-color: inherit !important; /* match page bg */
+  box-shadow: none !important; /* remove shadow */
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview * {
   box-sizing: border-box !important;
   font-family: "Montserrat", Arial, sans-serif !important;
+  font-size: inherit !important; /* inherit site’s font size */
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
   width: 100% !important;
@@ -37,9 +39,9 @@
   outline: none !important;
   color: #000000 !important;
   font-family: "Montserrat", Arial, sans-serif !important;
-  font-size: 14px;
+  font-size: inherit !important;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.5;
   text-align: center;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] 
@@ -51,6 +53,7 @@
   font-family: "Montserrat", Arial, sans-serif !important;
   color: #000000 !important;
   opacity: 1 !important;
+  font-size: inherit !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
   margin-top: 10px !important;
@@ -63,17 +66,17 @@
   border-radius: 6px !important;
   font-family: "Montserrat", Arial, sans-serif !important;
   font-weight: bold;
-  font-size: 14px;
+  font-size: inherit !important;
   color: #ffffff !important;
-  background-color: #000000 !important;
+  background-color: #f4a261 !important;
   line-height: 1.2 !important;
   text-align: center;
+  transition: background-color 0.3s ease;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] 
 .form-preview .preview-submit-button button:hover {
   cursor: pointer !important;
-  background-color: #333333 !important;
-  transition: background-color 0.3s ease;
+  background-color: #e76f51 !important;
 }
 /* Hide the 'Powered by' footer */
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
@@ -83,9 +86,9 @@
 
 <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
   <form action="https://api.follow.it/subscription-form/bFJpWE9sWlJVNXNIODNOd05QNmpuNnYyUXhsZURUcmh2Q0szRE5saktRQ3lCZ09FYTAyeTNDeE1EQzk1NHloUFJIczl0OWF3THpKSDVVSnBIK1JZQzBjYlRqamhqSUluVEEwRGxKaS95NFpIaUtTSG1WT2ZUbEhDL3NJRzJsa0J8L3UzV1hISzYyYlptL3h2RTNZRk8yelM3RW0zbHoyQ2dIMFhnVXZNTE5ycz0=/8" method="post">
-    <div class="form-preview" style="background-color: rgb(255, 255, 255); position: relative;">
+    <div class="form-preview">
       <div class="preview-heading">
-        <h5 style="color: rgb(0, 0, 0); font-size: 12px; text-align: left;">Get new posts by email:</h5>
+        <h5 style="color: rgb(0, 0, 0); text-align: left;">Get new posts by email:</h5>
       </div>
       <div class="preview-input-field">
         <input type="email" name="email" required placeholder="Enter your email" spellcheck="false">
