@@ -38,7 +38,7 @@ try again again
 {% endfor %}
 
 <h3>Subscribe</h3>
-{% include follow-it-form.html %}
+{% include subscription-form.html %}
 
 <h3>Contact</h3>
 Not currently available
