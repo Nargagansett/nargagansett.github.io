@@ -1,0 +1,15 @@
+<script>
+fetch('https://ipapi.co/country/')
+  .then(res => res.text())
+  .then(country => {
+    if (country === 'GB') {
+      document.querySelectorAll('.amazon-link').forEach(link => {
+        const key = link.dataset.linkkey;
+        const ukHref = link.getAttribute('data-uk-' + key);
+        if (ukHref) {
+          link.href = ukHref;
+        }
+      });
+    }
+  });
+</script>
