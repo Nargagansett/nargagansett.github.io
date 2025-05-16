@@ -16,6 +16,14 @@ theme: minima
 minima:
   # generate social links in footer
 
+book_links:
+  default:
+    book1: "https://www.amazon.com/book1"
+    anotherbook: "https://www.amazon.com/anotherbook"
+  uk:
+    book1: "https://www.amazon.co.uk/book1"
+    anotherbook: "https://www.amazon.co.uk/anotherbook"
+
 
 plugins:
  - jekyll-feed
