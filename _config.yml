@@ -16,7 +16,7 @@ theme: minima
 minima:
   # generate social links in footer
 
-book_links:
+amazon_book_links:
   default:
     book1: "https://www.amazon.com/book1"
     anotherbook: "https://www.amazon.com/anotherbook"
