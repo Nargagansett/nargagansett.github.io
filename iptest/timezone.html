@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timezone Test</title>
+</head>
+<body>
+  <h1>Client Timezone Detection</h1>
+  <p>Your timezone is: <span id="timezone">Loading...</span></p>
+  <p>Your UTC offset is: <span id="offset">Loading...</span></p>
+
+  <script>
+    // Get timezone name
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    document.getElementById('timezone').textContent = tz;
+
+    // Get UTC offset
+    const offsetMinutes = new Date().getTimezoneOffset();
+    const offsetHours = -offsetMinutes / 60;
+    document.getElementById('offset').textContent = `UTC${offsetHours >= 0 ? '+' : ''}${offsetHours}`;
+  </script>
+</body>
+</html>
