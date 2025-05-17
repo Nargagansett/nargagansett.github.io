@@ -34,7 +34,7 @@
       });
 
     // IPinfo (Lite, no token needed for basic info)
-    fetch('https://ipinfo.io/json)  // Add token if needed
+    fetch('https://ipinfo.io/json')  // Add token if needed
       .then(response => response.json())
       .then(data => {
         document.getElementById('ipinfo').textContent = data.country;
