@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IP Geolocation Test</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Visitor Country Codes</h1>
+  <ul>
+    <li>FreeIPAPI: <strong id="freeipapi">Loading...</strong></li>
+    <li>Country.is: <strong id="countryis">Loading...</strong></li>
+    <li>IPinfo: <strong id="ipinfo">Loading...</strong></li>
+  </ul>
+
+  <script>
+    // FreeIPAPI
+    fetch('https://freeipapi.com/api/json/')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('freeipapi').textContent = data.countryCode;
+      })
+      .catch(() => {
+        document.getElementById('freeipapi').textContent = 'Error';
+      });
+
+    // Country.is
+    fetch('https://api.country.is/')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('countryis').textContent = data.country;
+      })
+      .catch(() => {
+        document.getElementById('countryis').textContent = 'Error';
+      });
+
+    // IPinfo (Lite, no token needed for basic info)
+    fetch('https://ipinfo.io/json)  // Add token if needed
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('ipinfo').textContent = data.country;
+      })
+      .catch(() => {
+        document.getElementById('ipinfo').textContent = 'Error';
+      });
+  </script>
+</body>
+</html>
