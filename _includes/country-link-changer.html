@@ -1,8 +1,8 @@
 <script>
-fetch('https://ipwho.is/')
-  .then(res => res.json())
+fetch('https://freeipapi.com/api/json')
+  .then(response => response.json())
   .then(data => {
-    if (data.country_code === 'GB') {
+    if (data.countryCode === 'GB') {
       document.querySelectorAll('.amazon-link').forEach(link => {
         const key = link.dataset.linkkey;
         const ukHref = link.getAttribute('data-uk-' + key);
